@@ -83,6 +83,20 @@ main {
   gap: 15px;
 }
 
+/*switch image*/
+.front-img{
+  display: block;
+}
+.back-img{
+  display: none;
+}
+.card:hover .front-img{
+  display: none;
+}
+.card:hover .back-img{
+  display: block;
+}
+
 
 /* little heart top right*/
 .heart {
@@ -93,6 +107,7 @@ main {
   background-color: white;
   margin-top: 10px;
 }
+
 
 /*------------------debug----------------------*/
 
