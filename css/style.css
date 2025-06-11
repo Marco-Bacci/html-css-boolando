@@ -121,11 +121,11 @@ main {
 /*span indicativi*/
 
 .discount{
-  padding: 10px 15px;
   color: white;
   position: absolute;
   bottom: 30px;
 }
+  
 
 
 /*------------------debug----------------------*/
