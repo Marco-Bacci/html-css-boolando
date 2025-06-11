@@ -33,6 +33,7 @@ div img {
   padding: 5px;
 }
 
+
 /*----------------utilities-------------------*/
 
 .d-flex {
@@ -44,7 +45,7 @@ div img {
 }
 
 .col-33 {
-  width: calc(100%/3 - 15px)
+  width: 34%
 }
 
 

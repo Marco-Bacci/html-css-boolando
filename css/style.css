@@ -69,6 +69,8 @@ div img {
   background-color: green;
 }
 
+
+
 /*---------------- content---------------------*/
 
 header {
@@ -152,4 +154,8 @@ main {
 
 .generals h3 {
   text-transform: uppercase;
+}
+a{
+  text-decoration: none;
+  color: inherit;
 }
