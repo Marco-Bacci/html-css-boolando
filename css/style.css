@@ -28,7 +28,8 @@ div img {
   width: 100%;
   height: 100%;
 }
-span{
+
+.discount span {
   padding: 5px;
 }
 
@@ -58,11 +59,13 @@ span{
 .align-center {
   align-items: center;
 }
+
 /*colors*/
-.bg-red{
+.bg-red {
   background-color: red;
 }
-.bg-green{
+
+.bg-green {
   background-color: green;
 }
 
@@ -118,18 +121,30 @@ main {
   background-color: white;
   margin-top: 10px;
 }
+
 /*span indicativi*/
 
-.discount{
+.discount {
   color: white;
   position: absolute;
-  bottom: 30px;
+  bottom: 40px;
 }
-  
 
+/*info generali*/
 
-/*------------------debug----------------------*/
+.generals span:first-child {
+  color: red;
+  font-weight: bold;
+}
 
-hr {
-  margin: 50px 0;
+.generals span:last-child {
+  text-decoration: line-through;
+}
+
+.generals p {
+  text-transform: capitalize;
+}
+
+.generals h3 {
+  text-transform: uppercase;
 }
