@@ -88,6 +88,23 @@ main {
   position: relative;
   cursor: pointer;
 }
+/*switch image*/
+.front-img {
+  display: block;
+}
+
+.back-img {
+  display: none;
+}
+
+.card:hover .front-img {
+  display: none;
+}
+
+.card:hover .back-img {
+  display: block;
+}
+
 .heart {
   position: absolute;
   top: 0;
