@@ -84,36 +84,10 @@ main {
   padding-top: 100px;
   margin: 0 auto;
 }
-
-.row {
-  flex-wrap: wrap;
-  gap: 15px;
-}
-
 .card {
   position: relative;
   cursor: pointer;
 }
-
-/*switch image*/
-.front-img {
-  display: block;
-}
-
-.back-img {
-  display: none;
-}
-
-.card:hover .front-img {
-  display: none;
-}
-
-.card:hover .back-img {
-  display: block;
-}
-
-/* little heart top right*/
-
 .heart {
   position: absolute;
   top: 0;
