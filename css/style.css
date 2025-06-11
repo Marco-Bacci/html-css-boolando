@@ -28,6 +28,9 @@ div img {
   width: 100%;
   height: 100%;
 }
+span{
+  padding: 5px;
+}
 
 /*----------------utilities-------------------*/
 
@@ -55,10 +58,12 @@ div img {
 .align-center {
   align-items: center;
 }
-
-/*cards*/
-.card {
-  position: relative;
+/*colors*/
+.bg-red{
+  background-color: red;
+}
+.bg-green{
+  background-color: green;
 }
 
 /*---------------- content---------------------*/
@@ -70,7 +75,6 @@ header {
   position: fixed;
   width: 100%;
   z-index: 1;
-
 }
 
 main {
@@ -83,22 +87,29 @@ main {
   gap: 15px;
 }
 
+.card {
+  position: relative;
+}
+
 /*switch image*/
-.front-img{
-  display: block;
-}
-.back-img{
-  display: none;
-}
-.card:hover .front-img{
-  display: none;
-}
-.card:hover .back-img{
+.front-img {
   display: block;
 }
 
+.back-img {
+  display: none;
+}
+
+.card:hover .front-img {
+  display: none;
+}
+
+.card:hover .back-img {
+  display: block;
+}
 
 /* little heart top right*/
+
 .heart {
   position: absolute;
   top: 0;
@@ -106,6 +117,15 @@ main {
   padding: 15px;
   background-color: white;
   margin-top: 10px;
+}
+/*span indicativi*/
+
+.discount{
+  padding: 10px 15px;
+  color: white;
+  position: absolute;
+  bottom: 30px;
+  left: 0px;
 }
 
 
