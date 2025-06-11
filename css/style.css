@@ -50,7 +50,10 @@ div img{
 .align-center {
   align-items: center;
 }
-
+/*cards*/
+.card{
+  position: relative;
+}
 
 /*---------------- content---------------------*/
 
@@ -60,6 +63,7 @@ header {
   padding: 15px;
   position: fixed;
   width: 100%;
+  z-index: 1;
 
 }
 main{
@@ -71,13 +75,17 @@ main{
 }
   
 
+/* little heart top right*/
+.heart{
+position: absolute;
+top: 0;
+right: 0;
+padding: 15px;
+background-color: white;
+}
+
 /*------------------debug----------------------*/
 
-.box{
-  border: 1px solid black;
-  background-color: yellow;
-  height: 500px;
-}
 hr{
   margin: 50px 0;
 }
