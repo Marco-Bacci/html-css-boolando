@@ -3,3 +3,36 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/*layout*/
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+ul{
+  list-style-type: none;
+}
+
+/*utilities*/
+.d-flex{
+  display: flex;
+}
+.w-150{
+  width: 150px;
+}
+.justify-space-between{
+  justify-content: space-between;
+}
+.align-center{
+  align-items: center;
+}
+
+
+/*content*/
+
+header{
+  background-color: orangered;
+  color: white;
+  padding: 15px;
+}
