@@ -121,6 +121,10 @@ main {
   background-color: white;
   margin-top: 10px;
 }
+.heart:hover{
+  color: red;
+}
+
 
 /*span indicativi*/
 
